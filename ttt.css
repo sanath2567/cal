@@ -56,8 +56,8 @@ form .operator {
 }
 
 form  #oper{
-    background-color: rgb(11, 245, 11);
-    color: #fff;
+    background-color: #C3F797;
+    color: black;
 }
 form  #oper:hover{
     background-color:#3a4452;
