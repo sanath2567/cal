@@ -55,6 +55,35 @@ form .operator {
     color: #33ffd8;
 }
 
+form  #oper{
+    background-color: rgb(11, 245, 11);
+    color: #fff;
+}
+form  #oper:hover{
+    background-color:#3a4452;
+    color: #33ffd8;
+
+   
+}
+#ddd{
+    background-color: #FF0000;
+    color: #e3f9ff;
+
+}
+#ddd:hover{
+    background-color:#3a4452; 
+    color: #33ffd8;
+}
+#equa{
+     color: black;
+     background-color:  #FFA07A;
+    
+}
+#equa:hover{
+    background-color:#3a4452; 
+    color: #33ffd8;
+}
+
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
     .calculator {

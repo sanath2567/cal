@@ -15,8 +15,8 @@
                 <input type="text" name="display" size="60" >
             </div>
             <div >
-                <input type="button" value="AC" onclick="display.value='' " class="operator">
-                <input type="button" value="DE" onclick="display.value= display.value.toString().slice(0,-1)" class="operator">
+                <input type="button" value="AC" onclick="display.value='' " class="operator" id="oper">
+                <input type="button" value="DE" onclick="display.value= display.value.toString().slice(0,-1)" class="operator" id="ddd">
                 <input type="button" value="." onclick="display.value+='.' " class="operator">
                 <input type="button" value="/" onclick="display.value+='/' " class="operator">
             </div>
@@ -41,7 +41,7 @@
             <div>
                 <input type="button" value="00" onclick="display.value+='00' ">
                 <input type="button" value="0" onclick="display.value+='0' ">
-                <input type="button" value="√" onclick="display.value=Math.sqrt(display.value)">
+                <input type="button" value="√" onclick="display.value=Math.sqrt(display.value)" class="root">
                 <input type="button" value="=" id="equa" onclick="display.value=eval(display.value)" class="operator" >
                
 
